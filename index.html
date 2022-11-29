@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b433241389.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <section class="logSection">
+      <div class="mainLogSection">
+        <h2>Login Form</h2>
+        <form class="form">
+          <div class="userIcon"><i class="fa-regular fa-user fa-2xl"></i></div>
+          <br />
+          <div class="username">
+            <label for="uname"><b>Username</b></label>
+            <input
+              class="usernameSpace"
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              required
+            />
+          </div>
+          <br />
+          <div class="password">
+            <label for="psw"><b>Password</b></label>
+            <input
+              class="passwordSpace"
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+          </div>
+          <br />
+          <div class="btnDiv">
+            <button class="Login" role="submit">Login</button>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="remember"
+              name="remember"
+              value="Remember"
+            />
+            <label for="remember">Remember me</label><br />
+          </div>
+        </form>
+        <br />
+        <div class="footSection">
+          <button class="Login" role="button">Cancel</button>
+          <p>Forgot <a href="#">password?</a></p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

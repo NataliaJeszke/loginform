@@ -1,0 +1,122 @@
+body{
+    background: url(bg-img.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.logSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.mainLogSection{
+    background-color: #bf6a3c7a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+.form{
+    padding: 50px;
+    margin: 0 50px;
+}
+
+.userIcon{
+    margin-bottom: 20px;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.usernameSpace, .passwordSpace{
+    border-style:hidden;
+    border-radius: 2.5px;
+    padding: 7px;
+    margin: 5px;
+    text-align: center;
+}
+
+.footSection{
+    display: flex;
+    background-color:#4150535b;
+    justify-content:space-around;
+    align-items:center; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+.btnDiv{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#remember{
+    accent-color: #2e3336;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+a:link {
+    color:#2e3336;
+  }
+
+a:visited {
+    color: #415053
+  }
+
+a:hover {
+    color: #5a2407;
+  }
+
+
+  .Login {
+    background-color: #fff0de;
+    border: 1px solid #5a2407;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+  }
+  
+  .Login:hover {
+    background-color: #f7fafa;
+  }
+  
+  .Login:focus {
+    border-color: #5a2407;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
